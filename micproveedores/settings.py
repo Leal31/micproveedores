@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'micproveedores.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'proveedores',
+        'NAME': 'db_proveedores',
         'HOST' : '127.0.0.1',
         'PORT' : '27017'
     }
